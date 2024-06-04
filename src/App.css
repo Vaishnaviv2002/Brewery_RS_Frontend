@@ -1,0 +1,30 @@
+body{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/bg31.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(0px);
+}
+.App{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes floatLeftToRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
