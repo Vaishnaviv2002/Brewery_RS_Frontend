@@ -1,12 +1,13 @@
+
 # Brewery Review System 
 The Brewery Review System is a full-stack web application designed to help users search for breweries by city, name, or type and provide reviews for the breweries they visit. Users can sign up for a new account or log in to an existing account to access the brewery search feature. The application integrates with the Open Brewery DB API to fetch and display brewery information, and it uses a hosted database to store user reviews. The reviews include a rating from 1 to 5 and a description.
 It leverages the Open Brewery DB API (https://www.openbrewerydb.org) to fetch brewery data. The application features a user-friendly interface built with React.js and Ant Design, and a robust backend powered by Node.js, Express, and MongoDB.
 
 ## Deployment
 This project is currently live and accessible at Render: Brewery Review System.
-https://brewery-review-system-frontend-1.onrender.com
+https://vaishnavi-brewery-rs-frontend.onrender.com
 
-Backend Code Repository: https://github.com/GHulk-19/Brewery_Review_System-Backend-
+Backend Code Repository: https://github.com/Vaishnaviv2002/Brewery_RS_Backend
 
 ## Features
 
@@ -26,12 +27,12 @@ To get the Brewery Review System up and running on your local machine, follow th
 ### 1. Clone the Repository
 First, clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/GHulk-19/Brewery_Review_System_Frontend
+git clone https://github.com/Vaishnaviv2002/Brewery_RS_Frontend
 ```
 ### 2. Install Dependencies
 Navigate to the project directory and install all the necessary dependencies:
 ```bash
-cd Brewery_Review_System_Frontend
+cd Brewery_Review_System_Frontend-main
 npm install
 ```
 ### 3. Start the Project
